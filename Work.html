@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>
+        Light Breakfast
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #fff;
+        }
+        
+        .header img {
+            height: 30px;
+        }
+        
+        .header nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 400;
+        }
+        
+        .header nav a:hover {
+            color: #00bfa5;
+        }
+        
+        .content {
+            display: flex;
+            flex: 1;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        
+        .text-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        
+        .text-content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .text-content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .text-content .details {
+            margin-top: 20px;
+        }
+        
+        .text-content .details p {
+            margin: 5px 0;
+        }
+        
+        .image-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .image-content img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .project-nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+            background-color: #fff;
+        }
+        
+        .project-nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .nav-icon .project-nav-icon {
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .project-nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+            text-align: left;
+        }
+        
+        .footer .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .footer .footer-container div {
+            margin-bottom: 20px;
+        }
+        
+        .footer .footer-container .footer-left {
+            width: 30%;
+            display: flex;
+        }
+        
+        .footer .footer-container .footer-left {
+            width: 30%;
+            margin-right: auto;
+        }
+        
+        .footer .footer-container .footer-right {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            text-align: right;
+        }
+        
+        .footer .footer-container .footer-right div {
+            width: 23%;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                padding: 15px 20px;
+            }
+            .header nav a {
+                margin-left: 10px;
+                font-size: 14px;
+            }
+            .content {
+                flex-direction: column;
+                padding: 20px;
+            }
+            .text-content {
+                padding-right: 0;
+            }
+            .text-content h1 {
+                font-size: 28px;
+            }
+            .text-content p {
+                font-size: 16px;
+            }
+            .image-content {
+                margin-top: 20px;
+            }
+            .project-nav {
+                padding: 15px 20px;
+            }
+            .footer .footer-container {
+                flex-direction: column;
+            }
+            .footer .footer-container .footer-left,
+            .footer .footer-container .footer-right {
+                width: 100%;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header {
+                padding: 10px 15px;
+            }
+            .header nav a {
+                margin-left: 5px;
+                font-size: 12px;
+            }
+            .content {
+                padding: 15px;
+            }
+            .text-content h1 {
+                font-size: 24px;
+            }
+            .text-content p {
+                font-size: 14px;
+            }
+            .image-content img {
+                width: 100%;
+                height: auto;
+            }
+            .project-nav {
+                padding: 10px 15px;
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer .footer-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer .footer-container .footer-right div {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="index.html">
+                <img alt="Logo" src="./imgs/ss/icons8-diamond-50.png" />
+            </a>
+            <nav>
+                <a href="home.html">
+      HOME
+     </a>
+                <a href="About.html">
+      ABOUT
+     </a>
+                <a href="contact.html">
+      CONTACT
+     </a>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="text-content">
+                <h1>
+                    Light Breakfast
+                </h1>
+                <p>
+                    Light his can't a creeping. Be, bring blessed night. Replenish blessed creature good. Saw earth every creepeth lights day, divided abundantly form. In. Said given lights. Sixth the male. Upon their multiply. Kind beast. Him tree upon.
+                </p>
+                <p>
+                    Cattle. Dominion day herb she'd creeping divide darkness. Which. Subdue had.
+                </p>
+                <div class="details">
+                    <p>
+                        <strong>
+        Client:
+       </strong> Emma Morris
+                    </p>
+                    <p>
+                        <strong>
+        Date:
+       </strong> 25.06.2017
+                    </p>
+                    <p>
+                        <strong>
+        Share:
+       </strong> Facebook, Twitter, Pinterest
+                    </p>
+                </div>
+            </div>
+            <div class="image-content">
+                <img alt="A table with a variety of fruits and breakfast items" height="400" src="https://storage.googleapis.com/a1aa/image/otx47c8fLRUfPEUwkBv6jQXod0YoTX9wFoEiAYnZNm7Op0jTA.jpg" width="600" />
+            </div>
+        </div>
+        <div class="project-nav">
+            <a href="#">
+                <i class="fas fa-chevron-left">
+     </i> PREVIOUS PROJECT
+            </a>
+            <div class="nav-icon">
+                <div class="project-nav-icon">
+                    <i class="fas fa-chevron-left"></i>
+
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+
+            <a href="#">
+     NEXT PROJECT
+     <i class="fas fa-chevron-right">
+     </i>
+    </a>
+        </div>
+        <div class="footer ">
+            <div class="footer-container ">
+                <div class="footer-left ">
+                    <p style="font-weight: bold ;">
+                        Piroll Design, Inc. © 2017 Piroll. All rights reserved. Designed by robirurk.
+                    </p>
+                    <div class="info">
+                        <p>
+                            hello@pirolltheme.com
+                        </p>
+                        <p>
+                            +44 987 065 908
+
+                    </div>
+
+                </div>
+                <div class="footer-right ">
+                    <div class="right-first">
+                        <a href="# ">
+           Projects
+          </a>
+                        <a href="# ">
+           About
+          </a>
+                        <a href="# ">
+           Services
+          </a>
+                        </a>
+                        <a href="# ">
+    Legals
+    </a>
+                    </div>
+                    <div>
+                        <a href="# ">
+           News
+          </a>
+                        <a href="# ">
+           Events
+          </a>
+                        <a href="# ">
+           Contact
+          </a>
+                        <a href="# ">
+            Career
+           </a>
+
+                    </div>
+
+
+
+                    <div>
+                        <a href="# ">
+           Facebook
+          </a>
+                        <a href="# ">
+           Twitter
+          </a>
+                        <a href="# ">
+           Instagram
+          </a>
+                        <a href="# ">
+           Dribbble
+          </a>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>
