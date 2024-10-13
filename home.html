@@ -116,7 +116,19 @@
             text-decoration: none;
             display: block;
             margin: 5px 0;
-        }
+        }@media (max-width: 480px) {
+        .footer {
+        padding: 20px;
+    }
+    .footer .footer-left,
+    .footer .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+    .footer .footer-right {
+        flex-direction: column;
+    }
+}
     </style>
 </head>
 
